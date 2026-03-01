@@ -1,0 +1,13 @@
+{
+    "database": {
+        "server": "your-server-name",
+        "database": "your-database-name",
+        "username": "username",
+        "password": "Password",
+        "driver": "ODBC Driver 17 for SQL Server"
+    },
+    "goaml_settings": {
+        "rentity_id": "12345",
+        "threshold_npr": 1000000
+    }
+}
