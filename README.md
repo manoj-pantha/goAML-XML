@@ -4,6 +4,7 @@
 This project automates the extraction of the data from a SQL database and transforms it into the **goAML XML 4.0** (standardized by UNODC) for electronic filing.
 [!IMPORTANT]
 Disclaimer: This project is for educational purposes only. The reporting logic, SQL queries, and XML schemas provided are templates and must be modified to align with specific company rules, product specifications, and the latest regulatory guidelines from the Financial Intelligence Unit (FIU) or the regulators.
+
 ---
 
 ## 🚀 Key Features
@@ -28,3 +29,12 @@ Disclaimer: This project is for educational purposes only. The reporting logic, 
 3. **Load:** The script generates a `.xml` file and `.zip` file ready for upload to the goAML Web portal.
 
 ---
+
+## 🎯 Advanced Logic & Scope
+This project can be modified to handle the more complex business logic of Life Insurance data, including:
+1. **Multi-Policy KYC Tracking:** Consolidates data for policyholders with multiple active contracts to ensure aggregate threshold monitoring.
+2. **Product Specific Logic:** Specialized handling for Child Policies and varying regulatory requirements across different product lines.
+3. **Premium Nature:** Distinguishes between New Business and Renewal Premium impacts on reporting cycles.
+4. **Payment Mode:** Capture of payment mode-specific details, such as Cheque numbers, bank clearing references, and wallet reference number mapped directly to goAML transaction tags.
+5. **Flexible Schema:** Easily incorporates additional required fields as per evolving FIU guidelines and company-specific product specifications.
+
